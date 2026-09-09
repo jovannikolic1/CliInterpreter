@@ -3,34 +3,34 @@
 cmake_policy(SET CMP0009 NEW)
 
 # SOURCES at CMakeLists.txt:15 (file)
-file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/jovannikolic/Desktop/cli-interpreter/src/*.cpp")
+file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/*.cpp")
 set(OLD_GLOB
-  "/Users/jovannikolic/Desktop/cli-interpreter/src/commands/BatchCommand.cpp"
-  "/Users/jovannikolic/Desktop/cli-interpreter/src/commands/CommandFactory.cpp"
-  "/Users/jovannikolic/Desktop/cli-interpreter/src/commands/DateCommand.cpp"
-  "/Users/jovannikolic/Desktop/cli-interpreter/src/commands/EchoCommand.cpp"
-  "/Users/jovannikolic/Desktop/cli-interpreter/src/commands/FileNameCommand.cpp"
-  "/Users/jovannikolic/Desktop/cli-interpreter/src/commands/HeadCommand.cpp"
-  "/Users/jovannikolic/Desktop/cli-interpreter/src/commands/PromptCommand.cpp"
-  "/Users/jovannikolic/Desktop/cli-interpreter/src/commands/RmCommand.cpp"
-  "/Users/jovannikolic/Desktop/cli-interpreter/src/commands/TimeCommand.cpp"
-  "/Users/jovannikolic/Desktop/cli-interpreter/src/commands/TouchCommand.cpp"
-  "/Users/jovannikolic/Desktop/cli-interpreter/src/commands/TrCommand.cpp"
-  "/Users/jovannikolic/Desktop/cli-interpreter/src/commands/TruncateCommand.cpp"
-  "/Users/jovannikolic/Desktop/cli-interpreter/src/commands/WcCommand.cpp"
-  "/Users/jovannikolic/Desktop/cli-interpreter/src/core/Interpreter.cpp"
-  "/Users/jovannikolic/Desktop/cli-interpreter/src/core/Pipeline.cpp"
-  "/Users/jovannikolic/Desktop/cli-interpreter/src/main.cpp"
-  "/Users/jovannikolic/Desktop/cli-interpreter/src/parsing/Lexer.cpp"
-  "/Users/jovannikolic/Desktop/cli-interpreter/src/parsing/Parser.cpp"
-  "/Users/jovannikolic/Desktop/cli-interpreter/src/streams/ConsoleInputStream.cpp"
-  "/Users/jovannikolic/Desktop/cli-interpreter/src/streams/ConsoleOutputStream.cpp"
-  "/Users/jovannikolic/Desktop/cli-interpreter/src/streams/FileInputStream.cpp"
-  "/Users/jovannikolic/Desktop/cli-interpreter/src/streams/FileOutputStream.cpp"
-  "/Users/jovannikolic/Desktop/cli-interpreter/src/streams/InputStream.cpp"
-  "/Users/jovannikolic/Desktop/cli-interpreter/src/streams/StringInputStream.cpp"
+  "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/commands/BatchCommand.cpp"
+  "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/commands/CommandFactory.cpp"
+  "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/commands/DateCommand.cpp"
+  "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/commands/EchoCommand.cpp"
+  "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/commands/FileNameCommand.cpp"
+  "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/commands/HeadCommand.cpp"
+  "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/commands/PromptCommand.cpp"
+  "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/commands/RmCommand.cpp"
+  "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/commands/TimeCommand.cpp"
+  "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/commands/TouchCommand.cpp"
+  "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/commands/TrCommand.cpp"
+  "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/commands/TruncateCommand.cpp"
+  "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/commands/WcCommand.cpp"
+  "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/core/Interpreter.cpp"
+  "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/core/Pipeline.cpp"
+  "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/main.cpp"
+  "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/parsing/Lexer.cpp"
+  "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/parsing/Parser.cpp"
+  "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/streams/ConsoleInputStream.cpp"
+  "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/streams/ConsoleOutputStream.cpp"
+  "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/streams/FileInputStream.cpp"
+  "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/streams/FileOutputStream.cpp"
+  "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/streams/InputStream.cpp"
+  "/Users/jovannikolic/Desktop/etf/cli-interpreter/src/streams/StringInputStream.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/jovannikolic/Desktop/cli-interpreter/cmake-build-debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "/Users/jovannikolic/Desktop/etf/cli-interpreter/cmake-build-debug/CMakeFiles/cmake.verify_globs")
 endif()

@@ -5,21 +5,15 @@
 
 namespace cli {
 
-// The kinds of lexical units that can appear in a command line, according
-// to the lexical rules of the specification.
 enum class TokenType {
-    Word,       // an unquoted sequence of non-blank characters (command
-                // name, option, filename, "-noption" fragments, ...)
-    Quoted,     // a "..."-quoted sequence of characters (its text does NOT
-                // include the surrounding quotes)
+    Word,
+    Quoted,
     Pipe,       // '|'
     Less,       // '<'
     Greater,    // '>'
     DGreater    // '>>'
 };
 
-// A single lexical unit produced by the Lexer, together with the column at
-// which it starts in the original command line (used for error reporting).
 class Token {
 public:
     Token(TokenType type, std::string text, size_t position)

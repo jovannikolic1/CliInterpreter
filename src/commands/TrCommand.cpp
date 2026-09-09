@@ -18,7 +18,6 @@ void TrCommand::parseArguments(const std::vector<Token>& tokens) {
     }
 
     if (!isDashMarker(tokens[0])) {
-        // tokens[0] is the optional [argument] that defines the input.
         const Token& t = tokens[0];
         if (t.isQuoted()) {
             setOwnArgument(t.getText(), true);

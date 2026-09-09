@@ -37,11 +37,6 @@ void HeadCommand::parseArguments(const std::vector<Token>& tokens) {
 }
 
 void HeadCommand::execute() {
-        // Read the whole input stream first (all the way to EOF), then emit
-        // only its first 'count_' lines. This mirrors how wc/tr also need
-        // to see the whole input before producing their result, and means an
-        // interactive console session is free to keep typing until Ctrl+D,
-        // rather than being cut off as soon as enough lines were seen.
         const std::string text = input_->readAll();
 
         int linesLeft = count_;

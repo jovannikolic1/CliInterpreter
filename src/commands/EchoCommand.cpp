@@ -6,7 +6,7 @@ namespace cli {
 
 void EchoCommand::parseArguments(const std::vector<Token>& tokens) {
     if (tokens.empty()) {
-        return; // no argument: input stays the console (wired by Parser)
+        return; // no argument
     }
     if (tokens.size() > 1) {
         throw SyntaxError("echo: too many arguments");
@@ -15,7 +15,7 @@ void EchoCommand::parseArguments(const std::vector<Token>& tokens) {
     if (t.isQuoted()) {
         setOwnArgument(t.getText(), true);
     } else if (t.isWord()) {
-        setOwnArgument(t.getText(), false); // filename
+        setOwnArgument(t.getText(), false);
     } else {
         throw SyntaxError("echo: invalid argument");
     }

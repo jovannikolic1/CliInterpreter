@@ -7,9 +7,6 @@
 
 namespace cli {
 
-// Input stream backed by an in-memory string. Used both for a quoted
-// argument ("...") given directly on the command line, and for carrying
-// the buffered output of one command into the next one inside a pipeline.
 class StringInputStream : public InputStream {
 public:
     explicit StringInputStream(std::string content)

@@ -5,15 +5,6 @@
 
 namespace cli {
 
-// tr [argument] -"what" ["with"]
-// Replaces every occurrence of the "what" text found in the input stream
-// with the "with" text (or simply removes it, if "with" was not given),
-// and writes the transformed text to the output stream.
-//
-// Assumption (documented, see specification "Увод"): the '-' sign that
-// introduces "what" is a token of its own, optionally followed by blanks,
-// immediately followed by the quoted "what" text; the optional quoted
-// "with" text (if present) comes right after it.
 class TrCommand : public Command {
 public:
     void parseArguments(const std::vector<Token>& tokens) override;

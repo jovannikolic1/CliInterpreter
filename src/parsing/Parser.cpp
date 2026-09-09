@@ -32,8 +32,6 @@ ParsedCommand Parser::parseStage(const std::vector<Token>& stageTokensIn, const 
     std::vector<Token> stageTokens = stageTokensIn;
     ParsedCommand parsed;
 
-    // Strip trailing redirection clauses (in any order, at most one input
-    // and one output), as required by the specification.
     while (stageTokens.size() >= 2) {
         const Token& symbol = stageTokens[stageTokens.size() - 2];
         const Token& fileTok = stageTokens.back();
@@ -57,7 +55,6 @@ ParsedCommand Parser::parseStage(const std::vector<Token>& stageTokensIn, const 
         stageTokens.pop_back();
     }
 
-    // Anything left that is still a redirection/pipe token is misplaced.
     for (const Token& t : stageTokens) {
         if (t.isRedirection()) {
             throw SyntaxError("Syntax error: redirection allowed only at the end of a command");
@@ -71,8 +68,8 @@ ParsedCommand Parser::parseStage(const std::vector<Token>& stageTokensIn, const 
     const std::string commandName = stageTokens.front().getText();
     std::vector<Token> argTokens(stageTokens.begin() + 1, stageTokens.end());
 
-    parsed.command = factory.create(commandName); // may throw UnknownCommandError
-    parsed.command->parseArguments(argTokens);     // may throw SyntaxError
+    parsed.command = factory.create(commandName);
+    parsed.command->parseArguments(argTokens);
 
     return parsed;
 }

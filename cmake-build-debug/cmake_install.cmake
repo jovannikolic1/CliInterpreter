@@ -1,4 +1,4 @@
-# Install script for directory: /Users/jovannikolic/Desktop/cli-interpreter
+# Install script for directory: /Users/jovannikolic/Desktop/etf/cli-interpreter
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/jovannikolic/Desktop/cli-interpreter/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/jovannikolic/Desktop/etf/cli-interpreter/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

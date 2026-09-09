@@ -5,8 +5,7 @@
 
 namespace cli {
 
-// rm filename
-// Deletes (removes) the file with the given name.
+
 class RmCommand : public FileNameCommand {
 public:
     std::string name() const override { return "rm"; }

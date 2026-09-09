@@ -5,9 +5,6 @@
 
 namespace cli {
 
-// wc -opt [argument]
-// Counts either words (-w) or characters (-c) in the text read from its
-// input stream, and writes the resulting number to its output stream.
 class WcCommand : public Command {
 public:
     enum class Mode { Words, Chars };

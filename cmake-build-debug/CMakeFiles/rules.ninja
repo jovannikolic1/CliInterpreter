@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Users/jovannikolic/Desktop/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/jovannikolic/Desktop/cli-interpreter -B/Users/jovannikolic/Desktop/cli-interpreter/cmake-build-debug
+  command = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/jovannikolic/Desktop/etf/cli-interpreter -B/Users/jovannikolic/Desktop/etf/cli-interpreter/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 
@@ -51,7 +51,7 @@ rule RERUN_CMAKE
 # Rule for re-checking globbed directories.
 
 rule VERIFY_GLOBS
-  command = /Users/jovannikolic/Desktop/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P /Users/jovannikolic/Desktop/cli-interpreter/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake
+  command = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -P /Users/jovannikolic/Desktop/etf/cli-interpreter/cmake-build-debug/CMakeFiles/VerifyGlobs.cmake
   description = Re-checking globbed directories...
   generator = 1
 
@@ -60,7 +60,7 @@ rule VERIFY_GLOBS
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = /Users/jovannikolic/Desktop/CLion.app/Contents/bin/ninja/mac/aarch64/ninja $FILE_ARG -t clean $TARGETS
+  command = /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -68,6 +68,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = /Users/jovannikolic/Desktop/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -t targets
+  command = /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -t targets
   description = All primary targets available:
 

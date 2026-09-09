@@ -5,9 +5,6 @@
 
 namespace cli {
 
-// head -ncount [argument]
-// Copies the first 'count' lines from the input stream to the output
-// stream, ignoring the rest.
 class HeadCommand : public Command {
 public:
     void parseArguments(const std::vector<Token>& tokens) override;

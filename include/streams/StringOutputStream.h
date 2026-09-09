@@ -7,9 +7,6 @@
 
 namespace cli {
 
-// Output stream that simply accumulates every character written to it in
-// memory. Used to carry the output of one pipeline stage into the input of
-// the next one via a StringInputStream built from getContent().
 class StringOutputStream : public OutputStream {
 public:
     void putChar(char c) override { buffer_.push_back(c); }

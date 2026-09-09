@@ -5,8 +5,6 @@
 
 namespace cli {
 
-// time
-// Writes the current wall-clock time to its output stream.
 class TimeCommand : public Command {
 public:
     void parseArguments(const std::vector<Token>& tokens) override;

@@ -5,9 +5,6 @@
 
 namespace cli {
 
-// echo [argument]
-// Copies every character from its input stream to its output stream,
-// unchanged.
 class EchoCommand : public Command {
 public:
     void parseArguments(const std::vector<Token>& tokens) override;

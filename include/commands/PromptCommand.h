@@ -7,11 +7,6 @@
 
 namespace cli {
 
-// prompt argument
-// Changes the interpreter's command prompt to the text given as a
-// mandatory, quoted argument. Implemented with a small callback instead of
-// a direct dependency on the Interpreter class, so that Command subclasses
-// never need to know about the Interpreter (keeps coupling low).
 class PromptCommand : public Command {
 public:
     using PromptSetter = std::function<void(const std::string&)>;

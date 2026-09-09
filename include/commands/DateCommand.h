@@ -5,8 +5,7 @@
 
 namespace cli {
 
-// date
-// Writes the current date to its output stream.
+
 class DateCommand : public Command {
 public:
     void parseArguments(const std::vector<Token>& tokens) override;

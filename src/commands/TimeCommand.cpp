@@ -3,6 +3,7 @@
 #include <ctime>
 #include <iomanip>
 #include <sstream>
+#include <string>
 
 #include "errors/InterpreterExceptions.h"
 

@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/jovannikolic/Desktop/cli-interpreter/cmake-build-debug"
+			"value" : "/Users/jovannikolic/Desktop/etf/cli-interpreter/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -115,7 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/jovannikolic/Desktop/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake"
+			"value" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -127,7 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/jovannikolic/Desktop/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cpack"
+			"value" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -139,7 +139,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/jovannikolic/Desktop/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest"
+			"value" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -383,7 +383,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jovannikolic/Desktop/cli-interpreter/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/jovannikolic/Desktop/etf/cli-interpreter/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -443,7 +443,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/jovannikolic/Desktop/cli-interpreter"
+			"value" : "/Users/jovannikolic/Desktop/etf/cli-interpreter"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -499,7 +499,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "/Users/jovannikolic/Desktop/CLion.app/Contents/bin/ninja/mac/aarch64/ninja"
+			"value" : "/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -767,7 +767,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/jovannikolic/Desktop/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27"
+			"value" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.27"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1031,7 +1031,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jovannikolic/Desktop/cli-interpreter/cmake-build-debug"
+			"value" : "/Users/jovannikolic/Desktop/etf/cli-interpreter/cmake-build-debug"
 		},
 		{
 			"name" : "cli_interpreter_IS_TOP_LEVEL",
@@ -1055,7 +1055,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/jovannikolic/Desktop/cli-interpreter"
+			"value" : "/Users/jovannikolic/Desktop/etf/cli-interpreter"
 		}
 	],
 	"kind" : "cache",

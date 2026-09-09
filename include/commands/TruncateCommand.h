@@ -5,8 +5,6 @@
 
 namespace cli {
 
-// truncate filename
-// Empties the content of an existing file.
 class TruncateCommand : public FileNameCommand {
 public:
     std::string name() const override { return "truncate"; }
